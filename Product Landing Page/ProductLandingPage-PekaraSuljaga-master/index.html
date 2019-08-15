@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Suljaga Bakery</title>
+  </head>
+  <body>
+    <section id="main">
+      <header id="header">
+        <img
+          id="header-img"
+          src="https://cdn3.iconfinder.com/data/icons/hotel-and-restaurant-vector-line-3/128/108-128.png"
+        />
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#home" class="nav-link">O nama</a></li>
+            <!--
+				-->
+            <li><a href="#about" class="nav-link">O lepinji</a></li>
+            <!--
+				-->
+            <li><a href="#pricing" class="nav-link">Cenovnik</a></li>
+            <!-- 
+        -->
+            <li><a href="#features" class="nav-link">Recept</a></li>
+            <!--
+			-->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- HOME -->
+
+      <section id="home">
+        <h1>
+          Pekara Šuljaga
+        </h1>
+        <p>
+          Postoji još od 1920-ih godina, a sadašnji gazda Dragan Lazić koji je
+          svoj posao nasledio <br />
+          od oca, istovremeno je i vlasnik i radnik koji se ne libi da zasuče
+          rukave u tri ujutru i <br />
+          mesi testo za prve vruće lepinje od 6 ujutru.
+        </p>
+        <form
+          id="form"
+          method="post"
+          action="https://www.freecodecamp.com/email-submit"
+        >
+          <input
+            type="email"
+            id="email"
+            class="btn"
+            name="email"
+            placeholder="Unesite vasu email adresu"
+            required
+          />
+          <input type="submit" id="submit" class="btn" value="Prijavi se" />
+        </form>
+      </section>
+
+      <!-- ABOUT -->
+
+      <section id="about">
+        <img
+          src="https://www.ukusnoibrzo.rs/public/images/upload/recepti/800xauto/komplet-lepinja.png"
+          id="mainImg"
+        />
+        <br />
+        <br />
+        <ul id="about-container">
+          <li class="about-list">
+            <div class="list-div">
+              <h4 class="ab-span">Istorijat</h4>
+
+              <p>
+                Nastala pre Drugog svetskog rata. Ime je najverovatnije dobila
+                po majstorima koji su je najčešće jeli. Naime, majstori su slali
+                učenike da im kupe lepinje sa jajima, kajmakom i pretopom, ali
+                im je bilo lakše da kažu da kupe lepinju sa sve, pa joj je tako
+                ime i ostalo.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="list-div">
+              <h4 class="ab-span">Sastojci</h4>
+
+              <p>
+                Za ovaj specijalitet potrebna je sveža lepinja, stari kajmak,
+                jaje i pretop. Ukoliko su lepinja i kajmak domaći, po mogućstvu
+                iz užičkog kraja, imate dobru osnovu za ukusnu komplet lepinju.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="list-div">
+              <h4 class="ab-span">Recept</h4>
+
+              <p class="ab-desc">
+                Lepinja se blago zaseče po horizontali, tako se dobije deo koji
+                liči na posudu. Stari užički kajmak se muti zajedno sa jajetom,
+                a potom se ubacuje u zidanu peć na pečenje da bi se sve zapeklo.
+                Potom se preliva pretopom.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- PRICING -->
+
+      <section id="pricing">
+        <ul id="priceList-container">
+          <li class="price-list">
+            <div class="p-container">
+              <div class="p-top">
+                <p class="description">
+                  Komplet Lepinja sa Kiselim Mlekom
+                </p>
+                <img src="" class="p-img" />
+              </div>
+              <div class="price-head">
+                <p class="amt">
+                  180 din
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="price-list">
+            <div class="p-container">
+              <div class="p-top">
+                <p class="description">
+                  Zlatiborska sa Prsutom
+                </p>
+                <img src="" class="p-img" />
+              </div>
+              <div class="price-head">
+                <p class="amt">
+                  310 din
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="price-list">
+            <div class="p-container">
+              <div class="p-top">
+                <p class="description">
+                  Lepinja minus 1 sastojak
+                </p>
+                <img src="" />
+              </div>
+              <div class="price-head">
+                <p class="amt">
+                  140 din
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- FEATURES -->
+
+      <section id="features"></section>
+
+      <section>
+        <iframe
+          id="video"
+          width="60%"
+          height="400px"
+          src="https://www.youtube.com/embed/bv6sXpKJGyQ"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <footer>Copyright: OGTech 2018.</footer>
+      <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+    </section>
+  </body>
+</html>

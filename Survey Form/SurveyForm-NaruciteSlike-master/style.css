@@ -1,0 +1,115 @@
+table,
+td,
+tr {
+  border: 0 solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#more-info {
+  margin: 10px auto;
+  width: 83%;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.row1 {
+  text-align: right;
+  margin-top: 0;
+}
+
+.skin-map {
+  margin-top: -100px;
+  vertical-align: top;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 3px;
+}
+
+body {
+  background-color: #03947b;
+  font-family: 'Amaranth', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  width: 800px;
+  margin: 0 auto;
+  background-image: url('https://hdfreefoto.files.wordpress.com/2014/09/paints-and-brushes.jpg');
+  height: 700px;
+  color: black;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  text-align: center;
+  color: black;
+}
+
+#description {
+  margin-top: 0;
+  text-align: center;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.infoGroup1 {
+  margin: 5px;
+}
+#name-label,
+#email-label,
+#number-label,
+#drop-label,
+#map-label,
+#skin-label {
+  font-weight: bold;
+}
+
+.type {
+  margin: 5px;
+}
+
+#type-wrap,
+#map-wrap,
+#skin-wrap {
+  padding: 0 5px 5px 0;
+}
+#map-label,
+#skin-label {
+  margin: 5px;
+}
+
+#submit {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  background: #1903a8;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: yellow;
+}
+
+#submit:hover {
+  background: #f4c242;
+  color: #1903a8;
+}
+#more-info {
+  width: 395px;
+  margin-left: 50px;
+}

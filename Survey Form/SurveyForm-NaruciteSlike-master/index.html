@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+    <title>Buy Art Online</title>
+  </head>
+  <body>
+    <div>
+        <h1 id="title">Narucite slike preko interneta</h1>
+        <p id="description">Sami prilagodite slike vasem ukusu i enterijeru!</p>
+        <form id="surver-form" required>
+        <table>
+            <tr>
+            <td class="row1"><label name="name" id="name-label" class="infoGroup1">Ime:</label></td>
+            <td><input type="text" id="name" required placeholder="Vase ime" class="infoGroup1"></td>
+            </tr>
+            
+            
+            <tr>
+            <td class="row1"><label name="email" id="email-label"  class="infoGroup1">Email:</label></td>
+            <td><input type="email" id="email" placeholder="vasaEmail@adresa.com" class="infoGroup1" required></td>
+            </tr>
+            
+            <tr>
+            <td class="row1"><label name="number" id="number-label" class="infoGroup1">Broj slika:</label></td>
+            <td><input type="number" id="number" required min="1" max="20" placeholder="koje zelite da narucite" class="infoGroup1"></td>
+            </tr>
+            
+            <tr>
+            <td class="row1"><label for="dropdown" id="drop-label" class="type">Umetnicki stil:</label></td>
+            <td><select id="dropdown" class="type" required>
+            <option disabled selected>-Odaberite-</option>
+            <option>Realizam/Naturalizam</option>
+            <option>Impresionizam/Romantizam</option>
+            <option>Apstrakcija/Ekspresionizam</option>
+            <option>Surealizam/Kubizam</option>
+                </select></td>
+            </tr>
+            
+            
+            <tr>
+            <td class="row1 skin-map"><label id="skin-label" >Odabir dominantnih boja:</label></td>
+            <td><ul>
+                <li><input type="checkbox" id="common" value="common"><label for="common">Crvena</label></li>
+                <li><input type="checkbox" id="rare" value="rare"><label for="rare">Plava</label></li>
+                <li><input type="checkbox" id="epic" value="epic"><label for="epic">Zuta</label></li>
+                <li><input type="checkbox" id="legend" value="legend"><label for="legend">Crno/Belo</label></li></ul></td>
+            </tr>
+        <tr>
+            <td class="row1 skin-map"><label id="map-label">Nacin placanja:</label></td>
+            <td><ul>
+                <li><input type="radio" name="map-specialty" value="payload" id="payload"><label for="payload">Visa</label></li>
+        <li><input type="radio" name="map-specialty" value="hybrid" id="hybrid"><label for="hybrid">MasterCard</label></li>
+        <li><input type="radio" name="map-specialty" value="assault" id="assault"><label for="assault">PayPal</label></li>
+        <li><input type="radio" name="map-specialty" value="control" id="control"><label for="control">Maestro</label></li>
+        <li><input type="radio" name="map-specialty" value="arena" id="arena"><label for="arena">Postom</label></li>
+                </ul>
+                </td>
+            </tr>
+        </table>
+        <textarea placeholder="Dodatne informacije, zelje i instrukcije!" id="more-info"></textarea>
+        <button type="submit" id="submit" onclick="submitForm()">Potvrdite narudzbinu!</submit>
+        </form>
+    </div>
+  </body>
+</html>
